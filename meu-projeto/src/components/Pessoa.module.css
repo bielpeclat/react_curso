@@ -1,0 +1,36 @@
+.card {
+   background-color: #ffffff;
+   width: 180px;
+   padding: 20px;
+   margin: 20px auto;
+   border-radius: 12px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+   transform: translateY(-5px);
+}
+
+.imagem {
+   width: 120px;
+   height: 120px;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-bottom: 15px;
+   border: 3px solid #f0f0f0;
+}
+
+.nome {
+   margin: 0 0 10px 0;
+   color: #222;
+   font-size: 1.4rem;
+}
+
+.info {
+   margin: 5px 0;
+   color: #666;
+   font-size: 0.95rem;
+}

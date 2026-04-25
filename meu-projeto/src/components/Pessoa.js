@@ -1,14 +1,14 @@
-function Pessoa ({nome, foto, idade, profissao}) {
+import styles from './Pessoa.module.css';
 
+function Pessoa ({nome, foto, idade, profissao}) {
   return (
-    <div>
-      <img src={foto} alt={nome}/>
-      <h2>Nome: {nome}</h2>
-      <p>Idade: {idade}</p>
-      <p>Profissão: {profissao}</p>
+    <div className={styles.card}>
+      <img src={foto} alt={nome} className={styles.imagem} />
+      <h2 className={styles.nome}>{nome}</h2>
+      <p className={styles.info}>Idade: {idade}</p>
+      <p className={styles.info}>Profissão: {profissao}</p>
     </div>
   );
-  
 }
 
-export default Pessoa
+export default Pessoa;

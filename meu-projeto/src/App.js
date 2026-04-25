@@ -7,8 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      <SayMyName nome="Gabriel"/>
-      <Pessoa nome="Gabriel" idade="20" profissao="estudante" foto="https://placehold.co/150"/>
+      <Pessoa nome="Gabriel" idade="20" profissao="Estudante" foto="https://placehold.co/150"/>
     </div>
   );
 }
