@@ -1,0 +1,29 @@
+.listContainer {
+   padding: 20px 10px;
+   width: 250px;
+   margin: 20px auto;
+   background-color: #fff; transform: ;
+   border-radius: 12px;
+   transition: transform 0.2s ease;
+
+}
+
+.listContainer:hover {
+   transform: translateY(-5px);
+}
+
+.titulo {
+   color: #222;
+   font-size: 1.8rem;
+}
+
+.ulContainer {
+   list-style: none;
+   align-items: center;
+   padding: 0;
+   margin-bottom: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+

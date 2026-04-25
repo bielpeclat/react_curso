@@ -1,13 +1,13 @@
 import './App.css';
-import HelloWorld from './components/HelloWorld';
-import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
+import List from './components/List.js';
 
 function App() {
 
   return (
     <div className="App">
       <Pessoa nome="Gabriel" idade="20" profissao="Estudante" foto="https://placehold.co/150"/>
+      <List />
     </div>
   );
 }

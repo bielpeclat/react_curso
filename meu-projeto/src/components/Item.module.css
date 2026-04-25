@@ -1,0 +1,14 @@
+li {
+   font-weight: 400;
+   font-size: 1.26rem;
+   margin: 7px 0px;
+   cursor: pointer;
+   transition: opacity 0.1s;
+   /*background-color: red;*/
+   display: inline-block;
+}
+
+li:hover {
+   opacity: 50%;
+   color: 
+}
